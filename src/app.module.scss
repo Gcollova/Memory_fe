@@ -1,0 +1,50 @@
+.main{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    h1{
+        flex: 1;
+    }
+    ._body{
+        flex: 8;
+        height: 800px;
+        width: 70%;
+        border: 10px solid black;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        .__header{
+            flex: 1;
+            height: 100%;
+            width: 100%;
+        }
+        .__wrapper{
+            flex: 15;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    ._footer{
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            padding: 20px;
+            cursor: pointer;
+            
+            
+        }
+    }
+}

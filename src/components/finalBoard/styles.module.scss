@@ -1,0 +1,34 @@
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ._body{
+        flex: 15;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        .__resultsWrapper{
+            display: flex;
+            width: 100%;
+            height: 10%;
+            
+            p{
+                flex: 1;
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+        .__isMine{
+            p{
+                font-size: 29px;
+                color: rgb(70, 156, 70);
+            }
+        }
+
+    }
+    
+}

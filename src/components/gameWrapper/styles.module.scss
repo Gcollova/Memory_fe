@@ -1,0 +1,52 @@
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    ._preStart{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        .__header{
+            width: 100%;
+            h1{
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            gap: 15px;
+        }
+        
+        input{
+            padding: 20px;
+            font-size:30px;
+            margin-bottom: 40px;
+            outline: none;
+            background: none;
+            border: none;
+            border-bottom: 3px solid #ffff;
+            color: #ffff;
+            text-align: center;
+            &::placeholder{
+                font-size: medium;
+            }
+        }
+
+        .__start{
+            padding: 20px 40px;
+            border: 6px solid #ffff;
+            text-align: center;
+             font-size: 30px;
+            
+    
+        }
+    }
+}

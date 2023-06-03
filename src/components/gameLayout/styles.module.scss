@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    h3{
+        font-size: 30px ;
+    }
+}
+.mainInit{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    .countDown{
+        font-size: 90px;
+    }
+    h1{
+        flex: none;
+        font-size: 35px;
+    }
+}
