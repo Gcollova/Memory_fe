@@ -1,1 +1,1 @@
-export const endpoint = 'http://localhost:3000'
+export const endpoint = 'http://34.253.235.114:8080'
