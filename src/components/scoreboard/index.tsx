@@ -31,9 +31,11 @@ const Scoreboard = () => {
   }
 
   useEffect(() => {
-    if (results.length === 0) {
+    
       handleGetResults();
-    }
+
+      
+    
   }, []);
 
   if (loading) {
